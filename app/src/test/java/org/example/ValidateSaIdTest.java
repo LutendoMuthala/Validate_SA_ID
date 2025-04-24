@@ -6,8 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class ValidateSaIdTest {
 
-        @Test
-        public void testValidIdNumbers() {
+        @Test{
             // Test valid ID numbers 
             assertTrue(ValidateSaId.isIdNumberValid("2001014800086"));
             assertTrue(ValidateSaId.isIdNumberValid("2909035800085"));
@@ -83,5 +82,3 @@ public class ValidateSaIdTest {
             assertFalse(ValidateSaId.isIdNumberValid("2001014800087")); // Changed last digit
         }
     }
-
-
