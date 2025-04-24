@@ -101,4 +101,3 @@ public class ValidateSaId {
         return (sum + checkDigit) % 10 == 0;
     }
 }
-
